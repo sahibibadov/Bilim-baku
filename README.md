@@ -1,3 +1,5 @@
 # bilim-baku
 Demo 
-https://vercel.com/sahibibadov/bilim-baku/Fj47P1Bm3HxU5EHxBKzu39MfLtzx
+
+
+https://bilim-baku-7tmkk5xhh-sahibibadov.vercel.app
