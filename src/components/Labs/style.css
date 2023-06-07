@@ -1,0 +1,36 @@
+.labs > h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.54em;
+  text-transform: uppercase;
+  color: #2d00f7;
+  margin-bottom: 10px;
+}
+
+.labs > h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 73px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.lab__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.lab__link {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.lab__link a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #4cc9f0;
+  text-decoration: none;
+}

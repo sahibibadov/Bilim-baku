@@ -1,0 +1,6 @@
+.branches__pages {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}

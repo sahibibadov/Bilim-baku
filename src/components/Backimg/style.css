@@ -1,0 +1,10 @@
+.back__img {
+  background: linear-gradient(rgba(0, 0, 255, 0.116), rgba(0, 0, 255, 0.127)),
+    url(../../assets/headerhand.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-position: center;
+  inset: 0;
+  z-index: -1;
+}

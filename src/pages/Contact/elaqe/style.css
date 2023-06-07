@@ -1,0 +1,85 @@
+.contact__pages {
+  padding-top: 100px;
+}
+.about__content__bottom {
+  display: flex;
+  padding-top: 50px;
+  gap: 27px;
+}
+.about__content__bottom__left {
+  flex-basis: 50%;
+  padding: 32px;
+}
+.about__content__bottom__left h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.54em;
+  text-transform: uppercase;
+  color: #2d00f7;
+  margin-bottom: 10px;
+}
+.about__content__bottom__left h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 73px;
+  color: #000000;
+  margin-bottom: 32px;
+}
+.about__content__bottom__left p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #000000;
+  opacity: 0.5;
+}
+.about__content__bottom__right {
+  flex-basis: 50%;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: #ffffff;
+  border-radius: 24px;
+  align-items: baseline;
+}
+.about__content__bottom__right > div {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  width: 100%;
+}
+.about__content__bottom__righ__input label {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  width: 100%;
+  line-height: 21px;
+  color: #2f03f7;
+}
+.about__content__bottom__righ__input input {
+  width: 100%;
+}
+.about__content__bottom__righ__input label > p {
+  padding: 7px;
+}
+.about__content__bottom__right textarea {
+  resize: none;
+  width: 100%;
+  height: min-content;
+  border-radius: 16px;
+  height: 200px;
+  outline: none;
+  padding: 16px 32px;
+  color: #ffffff;
+  opacity: 0.79;
+  border: none;
+  background: #f8f8f8;
+}
+.about__content__bottom__right textarea:focus {
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,139 @@
+.footer__header__background {
+  background-color: black;
+}
+.footer__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+  color: white;
+}
+.footer__header > h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+}
+.footer__header > div {
+  display: flex;
+  gap: 16px;
+}
+.footer__header > div > button {
+  background: #6a00f4;
+  border-radius: 39px;
+  padding: 16px 31px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  letter-spacing: 0.004em;
+  border: none;
+}
+.footer_input {
+  border-radius: 16px;
+  width: 470px;
+  outline: none;
+  padding: 16px 32px;
+
+  opacity: 0.79;
+  border: none;
+  background: #f8f8f8;
+}
+.footer_input:focus {
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* footer main */
+/* left */
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+.footer-main__left {
+  flex-basis: 50%;
+}
+
+.footer-main__left__title {
+  margin-bottom: 30px;
+}
+.footer-main__elaqe {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.54em;
+  text-transform: uppercase;
+  color: #2d00f7;
+}
+
+.footer-main__title {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 73px;
+}
+.footer-main-connection {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* right */
+.footer-main__right {
+  flex-basis: 50%;
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: baseline;
+}
+.footer-main__right label {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  width: 100%;
+  line-height: 21px;
+  color: #2f03f7;
+}
+.footer-main__right label > p {
+  padding: 7px;
+}
+.footer-main__right .footer_input {
+  width: 100%;
+}
+
+.footer-main__right textarea {
+  resize: none;
+  width: 100%;
+  height: min-content;
+  border-radius: 16px;
+  height: 200px;
+  outline: none;
+  padding: 16px 32px;
+
+  opacity: 0.79;
+  border: none;
+  background: #f8f8f8;
+}
+.footer-main__right textarea:focus {
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.footer__bottom {
+  border: 1px solid transparent;
+  border-top-color: #6868684b;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+.footer__bottom a {
+  text-decoration: none;
+  color: #2d00f7;
+}

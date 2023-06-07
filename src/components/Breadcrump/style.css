@@ -1,0 +1,26 @@
+.breadcrumb {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  display: flex;
+  gap: 5px;
+  padding: 17px 40px;
+  padding-top: 150px;
+  background: transparent;
+
+  border-radius: 24px;
+}
+.breadcrumb-item {
+  color: #2d00f7;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration-line: underline;
+  color: #2d00f7;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">>";
+  margin: 0 0.5rem;
+}
+.breadcrumb-item + .breadcrumb-item {
+  color: #6c757d;
+}

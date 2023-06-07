@@ -1,0 +1,23 @@
+.Cards-telim {
+  padding-top: 200px;
+  display: flex;
+  gap: 16px;
+}
+.slider-telim {
+  padding-top: 100px;
+}
+.about__bilim {
+  padding-top: 100px;
+}
+.news__Card {
+  padding-top: 100px;
+}
+.Labs__bilim {
+  padding-top: 100px;
+}
+.Galery__bilim {
+  padding-top: 100px;
+}
+.Why__bilim {
+  padding-top: 100px;
+}

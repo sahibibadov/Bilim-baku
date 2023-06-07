@@ -1,0 +1,115 @@
+.footer {
+  margin-top: 100px;
+}
+.News__page__search {
+  background: rgba(255, 255, 255, 0.24);
+  box-shadow: inset 3px 4px 34px rgba(255, 255, 255, 0.37);
+  backdrop-filter: blur(66px);
+  border-radius: 24px;
+  padding: 28px 48px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border: 1px solid #0000001e;
+}
+.News__page__search_input {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  flex-basis: 100%;
+}
+.News__page__search_input input {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+  opacity: 0.5;
+  display: block;
+  width: 100%;
+}
+.News__page__search_buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.News__page__search_buttons button {
+  border-radius: 41px;
+  outline: none;
+  padding: 16px 32px;
+  border: none;
+  cursor: pointer;
+  border: 2px solid #6a00f4;
+}
+.News__page__search_buttons button:first-child {
+  background: #6a00f4;
+  color: white;
+  font-weight: 700;
+}
+.News__page__search_buttons button:last-child {
+  border: 2px solid #6a00f4;
+  font-weight: 700;
+  color: #6a00f4;
+}
+
+/* xeberler */
+.News__page__xeber {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+  padding: 40px 56px;
+  gap: 30px;
+  margin-top: 30px;
+  background: #2d00f74b;
+}
+.News__page__xeber__img {
+  position: absolute;
+
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  border-radius: 24px;
+}
+.News__page__xeber span {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 4px 12px;
+  font-weight: 600;
+
+  font-size: 10px;
+  line-height: 15px;
+  color: #2d00f7;
+}
+.News__page__xeber h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 58px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.News__page__xeber p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+.News__page__xeber a {
+  background: #6a00f4;
+  border-radius: 36px;
+  padding: 16px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}

@@ -1,0 +1,14 @@
+.social__icon_imgs {
+  padding-top: 100px;
+  display: flex;
+  gap: 16px;
+}
+.social__icon_imgs div {
+  padding: 35px 48px;
+  background: #ffffff;
+  cursor: pointer;
+  border-radius: 24px;
+}
+.social__icon_imgs div:hover {
+  box-shadow: 0px 23px 56px rgba(28, 0, 153, 0.11);
+}

@@ -1,0 +1,44 @@
+.card-telim {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 32px 24px;
+  border-radius: 16px;
+  align-items: center;
+
+  height: 420px;
+}
+.card-telim__icon {
+  width: 100px;
+  display: grid;
+  place-items: center;
+  height: 100px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.card-telim__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  display: -webkit-box;
+}
+.card-telim__content {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 0.6;
+}
+.card-telim__link {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.card-telim__link a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #4cc9f0;
+  text-decoration: none;
+}

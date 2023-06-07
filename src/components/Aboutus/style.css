@@ -1,0 +1,77 @@
+.about__Aboutus {
+  text-align: center;
+}
+.about__Aboutus h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+
+  letter-spacing: 0.54em;
+  text-transform: uppercase;
+  color: #2d00f7;
+}
+.about__Aboutus h2 {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 73px;
+  margin-bottom: 16px;
+
+  color: #000000;
+}
+.about__Aboutus .about__Aboutus__p1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  opacity: 0.5;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.about__Aboutus .about__Aboutus__p2 {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 33px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.About__ellips {
+  padding-top: 100px;
+  display: flex;
+  text-align: center;
+  gap: 16px;
+}
+.About__ellips div {
+  padding: 32px;
+}
+.About__ellips div h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+.About__ellips div p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.8;
+}
+.About__ellips div:first-child {
+  background: #4ccaf017;
+
+  border-radius: 16px;
+}
+.About__ellips div:last-child {
+  background: #6a00f417;
+
+  border-radius: 16px;
+}
