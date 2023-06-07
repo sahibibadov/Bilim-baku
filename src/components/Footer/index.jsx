@@ -57,7 +57,7 @@ export const Footer = () => {
           qorunur.
         </p>
         <p>
-          <Link to="#">Crocusoft MMC </Link> Tərəfindən hazərlanmışdır.
+          <Link to="#"> </Link>
         </p>
       </div>
     </div>
